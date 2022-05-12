@@ -21,7 +21,6 @@ class StockList extends Component {
         }
         return (
             <div>
-                <h1>Precio Actual de Stocks en consola del navegador</h1>
                 {cards}
             </div>
         )
