@@ -4,12 +4,20 @@ import StockCard from './StockCard'
 class StockList extends Component {
     static defaultProps = {
         stockList: [
-            { ticker: "MSFT", price: 266.04 },
-            { ticker: "FB", price: 198.88 },
-            { ticker: "ABT", price: 108.46 },
-            { ticker: "WMT", price: 152.68 },
-            { ticker: "KO", price: 65.11 },
-            { ticker: "NFLX", price: 174.33 }
+            { ticker: "MSFT" },
+            { ticker: "FB" },
+            { ticker: "ABT" },
+            { ticker: "WMT" },
+            { ticker: "KO" },
+            { ticker: "NFLX" },
+            { ticker: "NVDA" },
+            { ticker: "TSLA" },
+            { ticker: "SPCE" },
+            { ticker: "AAPL" },
+            { ticker: "RCL" },
+            { ticker: "NIO" },
+            { ticker: "BABA" },
+            { ticker: "DPZ" }
         ]
     }
     render() {

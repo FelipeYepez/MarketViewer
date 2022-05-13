@@ -1,10 +1,13 @@
 import './App.css';
-import StockList from './components/StockList';
+import "materialize-css/dist/js/materialize.min.js";
+import "materialize-css/dist/css/materialize.min.css"
+import Tabs from './components/Tabs';
+
 
 function App() {
   return (
     <div className="App">
-      <StockList/>
+      <Tabs/>
     </div>
   );
 }
